@@ -3,13 +3,13 @@ using namespace std;
 
 class Time {
 public:
-    void secondsToHHMMSS(int totalSeconds) {
+    void HHMMSS(int totalSeconds) {
         int hours = totalSeconds / 3600;
         int minutes = (totalSeconds % 3600) / 60;
         int seconds = totalSeconds % 60;
         cout << "HH:MM:SS => "<< hours <<":" <<minutes <<":" <<seconds <<endl;
     }
-    void HHMMSSToSeconds(int hours, int minutes, int seconds) {
+    void Seconds(int hours, int minutes, int seconds) {
         int totalSeconds=(hours * 3600)+ (minutes * 60)+seconds;
         cout <<"Total seconds:"<< totalSeconds<< endl;
     }
@@ -27,7 +27,7 @@ int main() {
         int totalSeconds;
         cout << "Enter total seconds: ";
         cin >> totalSeconds;
-        t.secondsToHHMMSS(totalSeconds);
+        t.HHMMSS(totalSeconds);
     } 
     else if (choice == 2) {
         int h, m, s;
@@ -37,7 +37,7 @@ int main() {
         cin >> m;
         cout << "Enter seconds: ";
         cin >> s;
-        t.HHMMSSToSeconds(h, m, s);
+        t.Seconds(h, m, s);
     } 
     else {
         cout<< " Your Choise Is Invalid choice!"<< endl;
