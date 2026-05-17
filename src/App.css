@@ -1,0 +1,145 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: rgb(44, 3, 3);
+    color: white;
+    border-color: white;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-links li{
+    cursor: pointer;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.logo span{
+    color: white;
+}
+
+.btn1{
+    padding: 10px 20px;
+    background-color: rgb(113, 58, 58);
+    color: white;
+    /* border: none; */
+    /* border-radius: 8px; */
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.btn1:hover{
+    background-color: darkred;
+    transform: scale(1.05);
+}
+
+
+
+.hero{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 90vh;
+  padding: 40px;
+  background-color: rgb(44, 3, 3);
+  color: white;
+
+}
+
+.hero-text h1{
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: rgb(107, 59, 107);
+}
+
+.hero-text p{
+  font-size: 22px;
+  margin-bottom: 20px;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+
+
+.hero-btn{
+  padding: 12px 25px;
+  background-color: purple;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+
+
+.hero-img img{
+  width: 350px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+
+
+.about-section{
+  min-height: 100vh;
+  background-color: #050816;
+  color: white;
+}
+
+.small-title{
+  color: #8b5cf6;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.purple-text{
+  color: #8b5cf6;
+}
+
+.about-img{
+  width: 100%;
+  max-width: 350px;
+  border-radius: 15px;
+}
+
+.info-text p{
+  color: #d1d1d1;
+  margin-bottom: 10px;
+}
+
+.btn-purple{
+  background-color: #8b5cf6;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 8px;
+  border: none;
+}
+
+.btn-purple:hover{
+  background-color: #6d28d9;
+  color: white;
+}
+
+
+
+.custom-bg{
+  background-color: rgb(44, 3, 3);
+}
